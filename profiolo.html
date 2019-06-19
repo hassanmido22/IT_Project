@@ -1,0 +1,77 @@
+<!doctype html>
+<html><head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="icon" type="image/gif" href="img/camera-icon.png" />
+    <title>IT project</title>
+<!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Rochester" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css"> 
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+
+<!-- links -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href='css/portofilo.css'>	
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<!-- scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/html5shiv.min.js"></script> 
+    <script src="js/respond.min.js"></script>
+
+    </head><body>
+<!-- first header -->
+     <div class="nav-bar">
+    <ul>
+        <li class="logo"><a href="#"><img class="nav-icon" src="img/loo.png"></a></li>
+        <li class="trademark"><a href="#"><span class="logo-font">photo</span><span class="span-logo"> company</span></a>
+                 
+</li> 
+       <li class="right"><a href="contacts.html">Contacts</a></li> 
+       <li class="right"><a href="profiolo.html">Profoilio</a></li> 
+       <li class="right"><a href="news.html">News</a></li> 
+       <li class="right"><a id="active" href="about.html">About</a></li> 
+       <li class="right"><a href="index.html">Home</a></li> 
+        
+        
+        </ul>
+         
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        <!-- the up button script --> 
+    
+    
+    <script>$(document).ready(function(){
+	
+	//Check to see if the window is top if not then display button
+	$(window).scroll(function(){
+		if ($(this).scrollTop() > 100) {
+			$('.scrollToTop').fadeIn();
+		} else {
+			$('.scrollToTop').fadeOut();
+		}
+	});
+	
+	//Click event to scroll to top
+	$('.scrollToTop').click(function(){
+		$('html, body').animate({scrollTop : 0},800);
+		return false;
+	});
+	
+});</script>
+    
+    <!-- scripts for jquary and bootstrap -->
+    
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-2.1.1.min.js"></script>
+    </body></html>

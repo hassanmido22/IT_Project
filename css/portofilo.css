@@ -1,0 +1,97 @@
+.nav-bar{
+background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../img/mt-0896-home-gallery6.jpg")center center fixed no-repeat;
+    background-size: cover;
+    width: 100%;
+    position: fixed;
+    
+}
+
+body{
+margin: 0;
+padding: 0;
+   font-family: 'Roboto', sans-serif;
+    color: white:   
+}
+ul{ 
+    background-color: grey;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: none;
+    list-style-type: none;
+    width: 100%; 
+    
+   
+}
+.trademark{
+    margin-left:30px;
+}
+.trademark a{   
+    float: left;  
+    font-size: 20px;
+    padding: 10px 0px;
+       margin:15px 0px;
+  margin-left: 30px;
+     font-size: 25px; 
+   font-family:  'Pacifico', cursive;
+    
+}
+li a{
+     display: block;
+    text-decoration: none;
+ color: white;
+
+}
+
+.right a{
+  
+    float: right;
+padding: 10px 30px;
+ font-family: 'Roboto', sans-serif;
+    font-size: 20px;  
+    margin: 25px 0px;
+}
+.right{
+      margin-right: 30px;  
+}
+.logo{
+    margin-left:30px;
+}
+.logo a{
+    float: left;  
+    font-size: 20px;
+    padding: 10px 0px;
+  margin-left: 30px;
+     font-size: 25px; 
+   font-family: 'Roboto', sans-serif;
+}
+
+
+span{
+font-family: 'Pacifico', cursive;
+font-size: 20px;
+}
+.right a:hover{
+    background-color: #805F85;
+    border-radius: 25px;
+    color:white;
+    text-decoration: none;
+}
+.nav-icon{
+  height: 80px;
+    width:80px;
+    color: white; 
+    
+}
+#active{
+    background-color: #805F85;
+    border-radius: 25px;
+}  
+.logo-font{
+   
+    color: white;
+ 
+}
+.span-logo{
+color:#805F85;
+}
